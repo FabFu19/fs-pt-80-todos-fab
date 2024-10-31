@@ -28,6 +28,8 @@
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     border-radius: 0;
+    text-align: center;
+    color:#c3bbbb
 }
 .bg-list-child{
     background-color: #f4f7f9f5;

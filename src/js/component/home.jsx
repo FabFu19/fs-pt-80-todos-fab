@@ -45,7 +45,7 @@ const Home = () => {
 						{todos.length > 0 ?
 						todos.map((task, i) => <li className="list-group-item bg-list-child" key={i}>{task} <span className="fa-solid fa-trash trash-i" onClick={() => handleClick(i)}></span></li>) 
 						:
-						''
+						'List Empty!'
 						}
 					</ul>
 					<p className="total-items">{total}<span className="ms-1">{total > 1 ? 'Items' : 'Item'}</span></p>
